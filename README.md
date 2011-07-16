@@ -95,7 +95,7 @@ We can create a DOT file from the diagram which can be processed by Graphviz to 
 
     Graphviz(diagram.toDot)
 
-Note that the `Graphviz` method is not part of this library. I'll add a gist later on with the full source code for this example.
+Note that the `Graphviz` method is not part of this library. Check out this [gist](https://gist.github.com/1086537) for the full source code of this example.
     
 The image rendered by Graphviz:
 
