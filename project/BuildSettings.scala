@@ -27,7 +27,9 @@ object ScumlBuild extends Build {
     "scuml",
     file ("."),
     settings = buildSettings ++ Seq (
-        libraryDependencies ++= testDeps,
-        testOptions in Test ++= Seq(Tests.Argument("junitxml"), Tests.Argument("console")))
+      libraryDependencies ++= testDeps,
+      testOptions in Test ++= Seq(Tests.Argument("junitxml"), Tests.Argument("console")),
+      unmanagedClasspath in Compile <+= (baseDirectory) map { bd => Attributed.blank(bd / "whatever") } // workaround for https://github.com/harrah/xsbt/issues/85
+    )
   )
 }
