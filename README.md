@@ -101,10 +101,6 @@ The image rendered by Graphviz:
 
 ![Diagram 1](https://github.com/sdb/scuml/raw/master/doc/images/diagram1.png)
 
-## License
-
-You may use this project under the terms of the [MIT License](http://www.opensource.org/licenses/mit-license.php).
-
 ## Contributing
 
 If you want to contribute fixes and/or features then [fork](http://help.github.com/fork-a-repo/) this repository, push your changes and send me a [pull request](http://help.github.com/send-pull-requests/).
